@@ -4,7 +4,7 @@
 
 This tutorial is adapted from [this tutorial](https://elitedatascience.com/keras-tutorial-deep-learning-in-python) by EliteDataScience
 
-#### The goal is to give you a basic understanding of building and testing an ML model using Python, Keras, Theano backend.
+#### The goal is to give you a basic understanding of building and testing an ML model using Python, Keras, and Theano backend.
 
 ### In this tutorial you'll briefly get familiar with the following technologies:
 
@@ -19,7 +19,7 @@ This tutorial is adapted from [this tutorial](https://elitedatascience.com/keras
 * [Python](https://www.python.org/) - Tested on 2.7 (but 2.7+ should work)
 * [PIP](https://pip.pypa.io/en/stable/installing/)
 * [VSCode](https://code.visualstudio.com/)
-* **Knowledge of install python dependencies** - as you run the code below some modules needed may not already be part of your python environment and so you'll need to install the modules to continue.
+* **Knowledge of installing python dependencies** - as you run the code below some modules needed may not already be part of your python environment and so you'll need to install the modules to continue.
 
 ### Setting up your environment: [Follow this tutorial](https://elitedatascience.com/keras-tutorial-deep-learning-in-python#step-1)
 
@@ -32,7 +32,7 @@ This tutorial is adapted from [this tutorial](https://elitedatascience.com/keras
 
 ## Build a Model
 
-* Install opencv `numpy` `h5py` `keras` - if you haven't already
+* Install `numpy` `h5py` `keras` - if you haven't already
 
 ```sh
 > pip install numpy h5py keras
