@@ -138,17 +138,17 @@ model.add(Conv2D(32, 3, 3, activation='relu'))
 # max of the 4 values in the 2x2 filter
 model.add(MaxPooling2D(pool_size=(2, 2)))
 ```
-```
+```py
 # regularizing our model in order to prevent overfitting
 model.add(Dropout(0.25))
 ```
-```
+```py
 # note that the weights from the Convolution layers must be flattened (made 1-dimensional) before passing them to the fully connected Dense layer.
 model.add(Flatten())
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.5))
 ```
-```
+```py
 # final layer has an output size of 10, corresponding to the 10 classes of digits.
 model.add(Dense(10, activation='softmax'))
 
@@ -230,7 +230,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 ```
 
-```
+```py
 # load model
 model = load_model("mnist.h5")
 ```
